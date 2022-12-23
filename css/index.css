@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Chivo Mono", monospace;
+  font-family: 'Chivo Mono', monospace;
   font-size: 16px;
   font-smooth: auto;
   font-weight: 300;
@@ -13,75 +13,85 @@ html {
   color: #444;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
   /* background-color: #34495e; */
   background-image: url(../images/backgroundDrums.png);
+  background-size:cover;
+  min-height: 100vh;
 }
 
-main {
-  margin-top: 40px;
+main{
+  margin-top:40px;
 }
 
-header {
-  width: 100%;
-  display: block;
-  text-align: center;
-  padding: 10px;
-  background: black;
-  opacity: 0.8;
+header{
+  width:100%;
+  height:200px;
+  display:block;
+  text-align:center;
+  padding:10px;
+  background:black;
+  opacity:0.8;
 }
 
-h1 {
-  color: white;
+h1{
+color:white;
 }
 
-.actionButtons {
-  width: auto;
-  height: auto;
-  position: absolute;
-  display: flex;
-  justify-items: baseline;
-  z-index: 10;
-  bottom: 65px;
-  left: 50px;
-  padding: 0px;
+.actionButtons{
+width:auto;
+  height:auto;
+  position:absolute;
+  display:flex;
+  justify-items:baseline;
+  z-index:10;
+  bottom:65px;
+  left:50px;
+  padding:0px;
 }
 
-.actionButtons a {
-  width: 35px;
-  height: 35px;
-  position: relative;
-  margin-right: 5px;
-  cursor: hand !important;
-  border-radius: 2px;
-  opacity: 1;
+.actionButtons a{
+  width:35px;
+  height:35px;
+  position:relative;
+  margin-right:5px;
+  cursor:hand!important;
+  border-radius:2px;
+  opacity:1;
   align-self: center;
 }
 
-.flex {
-  width: 100%;
-  position: relative;
-  display: flex;
+.flex{
+  width:100%;
+  position:relative;
+  display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:center;
+  
 }
 
-#songSection {
-  width: 100%;
-  display: flex;
+#songSection{
+  width:100%;
+  display:flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 a {
-  color: white;
-  display: flex;
-  flex-direction: row;
+  color:white;
+  display:flex;
+  flex-direction:row;
   text-decoration: none;
-  justify-content: center;
+  justify-content:center;
 }
 
-figure {
+figure {  cursor:pointer;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -89,14 +99,26 @@ figure {
   justify-content: flex-start;
   width: 180px;
   height: 250px;
-  margin: 10px;
+  margin:10px;
   padding: 20px 20px;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
-  background: #000000;
+  background:#000000;
 }
+
+
+figure img{
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:0;
+  top:0;
+  left:0;
+  opacity:0.5;
+}
+
 figure:before, figure:after {
   position: absolute;
   top: 0;
@@ -120,26 +142,48 @@ figure:after {
 figure:hover {
   background-size: 175%;
 }
-figure:hover:after {
-  content: "♣︎";
+
+
+figure#figure1:hover:after {
+  content: "";
   background-color: rgba(241, 196, 15, 0.9);
   color: white;
   font-size: 72px;
   z-index: 2;
 }
+
+figure:hover:after {
+  color: white;
+  font-size: 72px;
+  z-index: 2;
+}
+
+figure#figure1:hover:after,  figure#figure5:hover:after{
+  content: "♣︎";
+  background-color: rgba(241, 196, 15, 0.9);
+}
+
+figure#figure2:hover:after, figure#figure6:hover:after  {
+  content: "🤍";
+  background-color: red;
+}
+
+figure#figure3:hover:after{
+  content: "♠️";
+  background-color: blue;
+}
+
+
+figure#figure4:hover:after {
+  content: "♦️";
+  background-color: green;
+}
+
 figure:hover .date {
   bottom: -59px;
 }
 figure:hover figcaption {
   transform: translateY(-110%);
-}
-figure:hover #songSection figure img.imgTrack {
-  width: 180px !important;
-  height: 250px !important;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
 }
 figure .date {
   position: absolute;
@@ -159,52 +203,25 @@ figure .date span {
   line-height: 1;
 }
 figure .date span:first-child {
-  font-family: "Chivo Mono", monospace;
-  font-size: 20px;
-  font-weight: 900;
+  font-family: 'Chivo Mono', monospace;
+  font-size: 18px;
+  font-weight: 100;
 }
 figure .date span:last-child {
-  font-size: 14px;
-  font-weight: 400;
-}
-figure figure#figure1:hover:after {
-  content: "";
-  background-color: rgba(241, 196, 15, 0.9);
-  color: white;
-  font-size: 72px;
-  z-index: 2;
-}
-figure figure:hover:after {
-  color: white;
-  font-size: 72px;
-  z-index: 2;
-}
-figure figure#figure1:hover:after, figure figure#figure5:hover:after {
-  content: "♣︎";
-  background-color: rgba(241, 196, 15, 0.9);
-}
-figure figure#figure2:hover:after, figure figure#figure6:hover:after {
-  content: "🤍";
-  background-color: red;
-}
-figure figure#figure3:hover:after {
-  content: "♠️";
-  background-color: blue;
-}
-figure figure#figure4:hover:after {
-  content: "♦️";
-  background-color: green;
+  font-size: 15px;
+  font-weight: 100;
 }
 figure figcaption {
+  width:90%;
   color: white;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  z-index: 1000;
+  z-index: 1;
 }
 figure figcaption h4 {
-  margin: 0 0 5px;
-  font-family: "Chivo Mono", monospace;
-  font-size: 16px;
-  line-height: 1.35;
+  margin: 0px;
+  font-family: 'Chivo Mono', monospace;
+  font-size:16px;
+  line-height: 1.4;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
 figure figcaption h4 > span {

@@ -1,5 +1,5 @@
-$font-monospace: 'Chivo Mono', monospace;
-$font-sans: 'Chivo Mono', monospace;
+$font-monospace: 'Source Code Pro', sans-serif;
+$font-sans: 'Source Code Pro', monospace;
 $font-awesome: 'Font Awesome 5 Free';
 
 $base-duration: 250ms;
@@ -21,7 +21,7 @@ $lg: 64rem;
 }
 
 html {
-	font-family: 'Chivo Mono', monospace;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-smooth: auto;
 	font-weight: 300;
@@ -30,94 +30,38 @@ html {
 }
 
 body {
-	/* background-color: #34495e; */
-	background-image: url(../images/backgroundDrums.png);
-}
-
-main{
-	margin-top:40px;
-}
-
-header{
-	width:100%;
-	display:block;
-	text-align:center;
-	padding:10px;
-	background:black;
-	opacity:0.8;
-}
-
-h1{
-	color:white;
-}
-
-.actionButtons{
-	width:auto;
-	height:auto;
-	position:absolute;
-	display:flex;
-	justify-items:baseline;
-	z-index:10;
-	bottom:65px;
-	left:50px;
-	padding:0px;
-	
-}
-
-.actionButtons a{
-	width:35px;
-	height:35px;
-	position:relative;
-	margin-right:5px;
-	cursor:hand!important;
-	border-radius:2px;
-	opacity:1;
-	align-self: center;
-
-}
-
-.flex{
-	width:100%;
-	position:relative;
-	display:flex;
-	flex-direction: row;
-	justify-content:center;
-	
-}
-
-#songSection{
-	width:100%;
-	display:flex;
-	flex-wrap: wrap;
+	position: relative;
+	display: flex;
+	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #34495e;
 }
 
 a {
-	color:white;
-	display:flex;
-	flex-direction:row;
 	text-decoration: none;
-	justify-content:center;
 
 }
-
 
 
 figure {  
 	position: relative;
 	display: flex;
-	flex-direction: row;
+	flex-direction:row;
 	align-items: flex-start;
-	justify-content: flex-start;
-	width: 180px;
-	height: 250px;
-	margin:10px;
+	justify-content: center;
+	width: 200px;
+	height:auto;
 	padding: 20px 20px;
+	background-image: url('https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	border-radius: 10px;
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-	transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 	overflow: hidden;
-	background:#000000;
 	&:before,
 	&:after {
 		position: absolute;
@@ -154,16 +98,6 @@ figure {
 		figcaption {
 			transform: translateY(-110%);
 		}
-
-		#songSection figure img.imgTrack{
-			width: 180px!important;
-			height: 250px!important;
-			position:absolute;
-			top:0;
-			left:0;
-			z-index:0;
-
-		}
 	}
 	.date {
 		position: absolute;
@@ -191,53 +125,14 @@ figure {
 			}
 		}
 	}
-
-
-
-	figure#figure1:hover:after {
-		content: "";
-		background-color: rgba(241, 196, 15, 0.9);
-		color: white;
-		font-size: 72px;
-		z-index: 2;
-	}
-	
-	figure:hover:after {
-		color: white;
-		font-size: 72px;
-		z-index: 2;
-	}
-	
-	figure#figure1:hover:after,  figure#figure5:hover:after{
-	content: "♣︎";
-	background-color: rgba(241, 196, 15, 0.9);
-	}
-	
-	figure#figure2:hover:after, figure#figure6:hover:after  {
-		content: "🤍";
-		background-color: red;
-	}
-
-	figure#figure3:hover:after{
-		content: "♠️";
-		background-color: blue;
-	}
-
-	figure#figure4:hover:after {
-		content: "♦️";
-		background-color: green;
-	}
-
-
-
 	figcaption {
 		color: white;
 		transition: all 0.5s cubic-bezier(.25,.8,.25,1);;
-		z-index: 1000;
+		z-index: 1;
 		h4 {
 			margin: 0 0 5px;
 			font-family: $font-monospace;
-			font-size: 16px;
+			font-size: 24px;
 			line-height: 1.35;
 			text-shadow: 1px 1px rgba(black,0.7);
 			> span {
