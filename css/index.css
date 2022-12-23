@@ -16,9 +16,6 @@ html {
 body {
   /* background-color: #34495e; */
   background-image: url(../images/backgroundDrums.png);
-  background-clip: content-box;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 main {
@@ -85,14 +82,6 @@ a {
 }
 
 figure {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  width: 200px;
-  height: auto;
-  cursor: pointer;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -170,6 +159,12 @@ figure .date span:last-child {
   font-size: 14px;
   font-weight: 400;
 }
+figure figure img.trackImg {
+  width: 180px;
+  height: 250px;
+  display: block;
+  position: absolute;
+}
 figure figure#figure1:hover:after {
   content: "";
   background-color: rgba(241, 196, 15, 0.9);
@@ -201,12 +196,12 @@ figure figure#figure4:hover:after {
 figure figcaption {
   color: white;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  z-index: 1;
+  z-index: 1000;
 }
 figure figcaption h4 {
   margin: 0 0 5px;
   font-family: "Chivo Mono", monospace;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 1.35;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }

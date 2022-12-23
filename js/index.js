@@ -27,7 +27,7 @@ fetchSongsJson().then(songs =>{
             <a href="${link}" target="_blank"><img src="../images/youtubeIcon.png" alt="Link to YouTube Drumless Track"/></a>
             <a href="${tablature}" target="_blank"><img src="../images/pdfIcon.png" alt="Link to YouTube Drumless Track"/></a>
             </div>
-            <img src="${img}" alt="Card image cap"/>
+            <img src="${img}" class="trackImg" alt="Card image cap"/>
             <div class="date"><span class="card-date-day">${genre}</span></div>
             <figcaption>
             <h4><span>${song}<br>${autor}</span></h4>
