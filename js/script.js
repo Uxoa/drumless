@@ -1,5 +1,5 @@
 $(function() {
-	// Crash varibles
+	// Crash variables
 	crashCymbolAll = $('#Crash');
 	crashCymbol = $('#Crash-Cymbol');
 	crashAudio = $('#Crash-Audio');

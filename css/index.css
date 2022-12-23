@@ -24,15 +24,12 @@ body {
   background-image: url(../images/backgroundDrums.png);
   background-size:cover;
   min-height: 100vh;
-}
-
-main{
-  margin-top:40px;
+  display:flex;
+  flex-direction: column;
 }
 
 header{
   width:100%;
-  height:200px;
   display:block;
   text-align:center;
   padding:10px;
@@ -40,7 +37,23 @@ header{
   opacity:0.8;
 }
 
-h1{
+main{
+  margin-top:40px;
+}
+
+
+footer{
+  background-color:#000000;
+  display:block;
+  justify-content:center;
+  margin:40px 0px 0px 0px;
+  padding:40px;
+  opacity:0.8;
+  text-align:center;
+
+}
+
+h1,h2{
 color:white;
 }
 
@@ -165,12 +178,12 @@ figure#figure1:hover:after,  figure#figure5:hover:after{
 
 figure#figure2:hover:after, figure#figure6:hover:after  {
   content: "🤍";
-  background-color: red;
+  background-color: #e4484b;
 }
 
 figure#figure3:hover:after{
-  content: "♠️";
-  background-color: blue;
+  content: "♣︎";
+  background-color: #477AE9;
 }
 
 

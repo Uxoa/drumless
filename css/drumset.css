@@ -5,16 +5,7 @@ label {
     color:#ffffff;
 }
 
-@font-face {
-	font-family: 'codropsicons';
-	font-weight: normal;
-	font-style: normal;
-	src: 	url('../fonts/codropsicons/codropsicons.eot');
-	src: 	url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), 
-			url('../fonts/codropsicons/codropsicons.woff') format('woff'), 
-			url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), 
-			url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
+
 
 *,
 *::after,
@@ -28,13 +19,7 @@ label {
  * === General Demo Styles ===
  */
 
-body {
-	font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
-	color: #2d2e36;
-	background: #c2ccd4;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
+
 
 a {
 	text-decoration: none;
@@ -167,7 +152,7 @@ audio {
 
 .content {
 	overflow: hidden;
-	height: 100vh;
+
 }
 
 .container-drums {
@@ -202,14 +187,17 @@ audio {
 }
 
 .demo-footer {
-	position: absolute;
+	background-color:#2d2e36;
+	width:100%;
+	position:relative;
 	z-index: 1000;
-	top: 0;
-	right: 0;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	justify-content:center;
 	padding: 2em;
+	text-align:center;
+
 }
 
 .container-sequencer {
@@ -240,7 +228,7 @@ audio {
  */
 
 .btn {
-	font-size: 1.65em;
+	font-size: 1em;
 	font-weight: bold;
 	line-height: 1;
 	width: auto;
@@ -248,16 +236,18 @@ audio {
 	padding: 0.5rem;
 	vertical-align: middle;
 	text-decoration: none;
-	color: #89939B;
+	color: #ffffff;
 	border: 0;
 	border-radius: 2px;
-	background: #B0B9C0;
+	background: #000000;
+	
+	
 }
 
 .btn:focus,
 .btn:hover {
-	color: #2d2e36;
-	border-color: #2d2e36;
+	color: #ffffff;
+	background-color:#C6A01A;
 	outline: none;
 }
 

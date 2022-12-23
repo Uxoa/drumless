@@ -7,8 +7,8 @@
       "autor": "Metallica",
       "img": "../images/enterSadmanMetallica.jpeg",
       "genre": "Rock",
-      "link": "#",
-      "tablature": "#"
+      "link": "https://youtu.be/AyDYFawc_Zw",
+      "tablature": "../pdf/enter_sandman.pdf"
     },
     {
       "id": 2,

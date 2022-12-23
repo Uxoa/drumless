@@ -32,11 +32,12 @@
 
     <footer>
         <section>
-            <div class="content">
+        <h2>Virtual drumset</h2>
+		<div class="content">
 				<div id="container-sequencer" class="container-sequencer collapse">
 					<div id="sequencer" class="sequencer">
 						<div class="row" data-target-drum="crash">
-							<img src="img/crash.png" alt="Crash">
+							<img src="images/crash.png" alt="Crash">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -47,7 +48,7 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="row" data-target-drum="hiHat">
-							<img src="img/hi-hat.png" alt="Hi hat">
+							<img src="images/hi-hat.png" alt="Hi hat">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -58,7 +59,7 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="row" data-target-drum="snare">
-							<img src="img/snare.png" alt="Snare">
+							<img src="images/snare.png" alt="Snare">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -69,7 +70,7 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="row" data-target-drum="rightTom">
-							<img src="img/right-tom.png" alt="Right tom">
+							<img src="images/right-tom.png" alt="Right tom">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -80,7 +81,7 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="row" data-target-drum="leftTom">
-							<img src="img/left-tom.png" alt="Left tom">
+							<img src="images/left-tom.png" alt="Left tom">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -91,7 +92,7 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="row" data-target-drum="floorTom">
-							<img src="img/floor-tom.png" alt="Floor tom">
+							<img src="images/floor-tom.png" alt="Floor tom">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -102,7 +103,7 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="row" data-target-drum="kick">
-							<img src="img/kick.png" alt="Kick">
+							<img src="images/kick.png" alt="Kick">
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
 							<label><input type="checkbox"><span></span></label>
@@ -113,9 +114,9 @@
 							<label><input type="checkbox"><span></span></label>
 						</div>
 						<div class="sequencer-controls">
-							<button id="sequencer-active-btn" class="btn" aria-label="Play"><i class="fa fa-play"></i></button>
+							<button id="sequencer-active-btn" class="btn" aria-label="Play"><i class="fa fa-play">PLAY</i></button>
 							<div class="sequencer-controls-tempo">
-								<button id="bpm-decrease-btn" class="btn" aria-label="Decrease bpm"><i class="fa fa-minus"></i></button>
+								<button id="bpm-decrease-btn" class="btn" aria-label="Decrease bpm"><i class="fa fa-minus">TEMPO</i></button>
 								<input id="bpm-indicator" type="number" min="100" max="300" size="3" value="150" readonly>
 								<button id="bpm-increase-btn" class="btn" aria-label="Iecrease bpm"><i class="fa fa-plus"></i></button>
 							</div>
@@ -465,8 +466,8 @@
 			</div>
 			<footer class="demo-footer">
 				<div class="container-btns">
-					<button class="btn btn-tooltip btn-sequencer" id="sequencer-visible-btn" aria-label="Toggle sequencer"><i class="fa fa-th"></i></button>
-					<button class="btn btn-tooltip btn-keys" id="keys-btn" aria-label="Toggle keyboard legend"><i class="fa fa-keyboard-o"></i></button>
+					<button class="btn btn-tooltip btn-sequencer" id="sequencer-visible-btn" aria-label="Toggle sequencer">SHOW/HIDE MISTABLE</button>
+					<button class="btn btn-tooltip btn-keys" id="keys-btn" aria-label="Toggle keyboard legend">SHORTCUTS</button>
 				</div>
 			</footer>
 		</div>
