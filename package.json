@@ -1,0 +1,23 @@
+{
+  "name": "tracklist",
+  "version": "1.0.0",
+  "description": "tracklist",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch canciones.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uxoa/drumless.git"
+  },
+  "keywords": [],
+  "author": "Adriana Aguilar Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uxoa//tracklist/issues"
+  },
+  "homepage": "https://github.com/Uxoa//tracklist#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

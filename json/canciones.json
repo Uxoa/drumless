@@ -1,0 +1,33 @@
+{
+  "canciones": 
+  [
+    {
+      "id": 1,
+      "song": "Enter Sandman",
+      "autor": "Metallica",
+      "img": "../images/enterSadmanMetallica.jpeg",
+      "genre": "Rock",
+      "link": "#",
+      "tablature": "#"
+    },
+    {
+      "id": 2,
+      "song": "Have you ever seen the rain",
+      "autor": "Clearence clearwater revival",
+      "img": "../images/haveYouEverSeenTheRainCCR.jpg",
+      "genre": "Rock",
+      "link": "https://youtu.be/LgOlEBO0srk",
+      "tablature": "../pdf/have-you-ever-seen-the-rain-creedence-clearwater-revival-drum-transcription.pdf"
+    },
+    {
+      "id": 3,
+      "song": "My Sharona",
+      "autor": "The Knack",
+      "img": "../images/mySharonaTheKnack.jpg",
+      "genre": "Rock",
+      "link": "https://www.youtube.com/watch?v=-R1-ApyB7t0",
+      "tablature": "../pdf/my-sharona-the-knack-drum-transcription.pdf"
+    }
+    
+  ]
+}
