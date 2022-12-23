@@ -85,7 +85,7 @@ h1{
 	
 }
 
-#cards{
+#songSection{
 	width:100%;
 	display:flex;
 	flex-wrap: wrap;
@@ -154,6 +154,16 @@ figure {
 		figcaption {
 			transform: translateY(-110%);
 		}
+
+		#songSection figure img.imgTrack{
+			width: 180px!important;
+			height: 250px!important;
+			position:absolute;
+			top:0;
+			left:0;
+			z-index:0;
+
+		}
 	}
 	.date {
 		position: absolute;
@@ -183,12 +193,6 @@ figure {
 	}
 
 
-	figure img.trackImg{
-	width: 180px;
-	height: 250px;
-	display:block;
-	position:absolute;
-	}
 
 	figure#figure1:hover:after {
 		content: "";
