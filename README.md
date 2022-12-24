@@ -1,56 +1,43 @@
-My Drumless songs
-1. Project description:
-✏
- Access to the drummless songs and tablatures of the tracks I can play.
+<img width="491" alt="Captura de Pantalla 2022-12-24 a las 14 01 47" src="https://user-images.githubusercontent.com/78784528/209437743-42f7264a-53c5-4e33-867d-b1ea2c5599b7.png">
 
-A Backend team has asked me to develop the Frontend of an application of my drumless songs with access to the music and the tablatures. We don't have a Rest Api so we will use Json to achieve the goal.
 
-2. The backend team requests me:
-Develop a dynamic interface in vanilla Javascript. With good development and layout practices.
-It uses the Faker Api server.
-Add images to your songs.
-3. Full-stack developer:
-Paloma Babot https://github.com/Uxoa
-4. Project Demo
-For live version of the project, run the code with Live Server in Visual Studio Code.
+## :musical_score: Project description:
 
-5. Initial Designs (Screenshots)
-mydrumless.png
+This project is an Access to the drummless songs and tablatures of the tracks I can play with the possibility to have a link to the Youtube drumless song and another link to the drum tablature.<br>
 
-6. Stacks
-NodeJS
-NPM
-JSON server
-javaScript
-HTML5 
-CSS3 
-SCSS
-SASS
+A Backend team asked me to develop a dynamic Frontend of my drumless tracks linked to the drumless video and drum Tablature. As I don't have a REST API I use a JSON server to be able to built the frontend. The Backend Team requested me an interface in javascript vanilla, layout practices and clean code.
 
-7. How to install the project
-Required:
-Node.js
-Composer installed
-To install project:
-For live version of the project, run the code with Live Server in Visual Studio Code.
-In the GitHub repository https://github.com/Uxoa/drumless, go to the CODE tab and copy the HTTPS link.
-In Visual Studio Code terminal, clone the contents of this project with thegit clonecommand followed by the HTTPSlink copied to the repository.
-Download Node JS at https://nodejs.org/es/download/. 
-It is important to install LTS, which are the stable versions.
-To find out which version is installed, open Visual Studio Code and run node -v command.
-This will tell us which version is installed.
-From here we begin to create the folder:
-Open the Visual Studio Code, to install the neccesary dependencies, and in the terminal run and install:
-Install dependencies: npm install 
-Start the server: json-server(npm install -g json-server command).
-To run the server follow these steps:
-With the ls command, we see which folder we are in.
-We change to the /json folder, in case we are not in this folder, with the command cd json/
-check that you am in the correct folder: drumless.json
-From here, launch the server, using the command:json-server --watch drumless.json
-8. Methodology:
-Solo Programming.
-9. Next Steps:
+## :musical_score: Developer:
+Paloma Babot <br>
+https://github.com/Uxoa<br>
+https://www.linkedin.com/in/palomababot/<br>
 
-Improve the 
-Add a form data to upload dynamically the canciones.json
+
+## :musical_score: Demo 
+
+Run de index.html from your Live Server code editor<br>
+http://127.0.0.1:5500/index.html
+
+## :musical_score: Stacks
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs,html,js,jquery,css,sass)]
+
+## :musical_score: Installation
+
+:point_right: Make sure you have NodeJs (node -v) (https://nodejs.org/es/download/) and Composer (composer -v) (https://getcomposer.org/) installed<br>
+:point_right: Install dependencies: npm install <br>
+:point_right: clone https://github.com/Uxoa/drumless<br>
+:point_right: Install dependencies: npm install <br>
+:point_right: Start the server: json-server(npm install -g json-server command)<br>
+:point_right: go to /json folder (cd json) where the canciones.json is<br>
+:point_right: Launch the server using json-server --watch drumless.json<br>
+
+
+## :musical_score: Metodology
+Solo Programming
+
+
+## :musical_score: Next Steps:
+
+Improve the design<br>
+Add a form data to upload dynamically the canciones.json<br>
