@@ -27,6 +27,15 @@
       "genre": "Rock",
       "link": "https://www.youtube.com/watch?v=-R1-ApyB7t0",
       "tablature": "../pdf/my-sharona-the-knack-drum-transcription.pdf"
+    },
+    {
+      "id": 4,
+      "song": "To love somebody",
+      "autor": "Bee Gees",
+      "img": "../images/toLoveSomebody.jpg",
+      "genre": "Rock",
+      "link": "https://youtu.be/oEeq0rvRj-U",
+      "tablature": "../pdf/To_Love_Somebody_by_Bee_Gees.pdf"
     }
     
   ]

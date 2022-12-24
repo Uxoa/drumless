@@ -172,7 +172,7 @@ figure:hover:after {
 }
 
 figure#figure1:hover:after,  figure#figure5:hover:after{
-  content: "♣︎";
+  content: "🤍";
   background-color: rgba(241, 196, 15, 0.9);
 }
 
@@ -182,14 +182,14 @@ figure#figure2:hover:after, figure#figure6:hover:after  {
 }
 
 figure#figure3:hover:after{
-  content: "♣︎";
+  content: "🤍";
   background-color: #477AE9;
 }
 
 
 figure#figure4:hover:after {
-  content: "♦️";
-  background-color: green;
+   content: "🤍";
+  background-color: #6E0294;
 }
 
 figure:hover .date {
