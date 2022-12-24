@@ -1,4 +1,5 @@
-<img width="491" alt="Captura de Pantalla 2022-12-24 a las 14 01 47" src="https://user-images.githubusercontent.com/78784528/209437743-42f7264a-53c5-4e33-867d-b1ea2c5599b7.png">
+
+<p align="center"><img width="231" alt="musicbookLogo" src="https://user-images.githubusercontent.com/78784528/209450282-867c0a44-31c7-4e8c-bbc6-63a3be47bbb5.png"></p>
 
 
 ## :musical_score: Project description:
@@ -13,7 +14,8 @@ https://github.com/Uxoa<br>
 https://www.linkedin.com/in/palomababot/<br>
 
 ## :musical_score: ScreenShot
- 
+
+<img width="1217" alt="screenShot" src="https://user-images.githubusercontent.com/78784528/209450960-d71f8017-cfb9-4299-88f4-799c8dc77b48.png">
 
 
 
