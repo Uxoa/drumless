@@ -4,6 +4,8 @@
   outline: none;
 }
 
+
+
 html {
   font-family: 'Chivo Mono', monospace;
   font-size: 16px;
@@ -45,29 +47,60 @@ main{
 
 
 footer{
+  width:100%;
   color:#ffffff;
   display:block;
   justify-content:center;
   margin:40px 0px 0px 0px;
-  padding:40px;
   opacity:0.8;
   text-align:center;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 70%);
 }
+.palomadas{
+  color: #000000;
+  font-family: 'Baloo Chettan 2';
+  font-weight: bold;
+  position:relative!important;
+  top: 70%;
+	left:-50%;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding:7px!important;
+
+}
+
+.borderName01{
+  border: 2px solid black;
+  border-top-style: outset;
+  padding-left: 4px;
+  padding-right: 3px;
+
+
+}
 
 .copyRight {
+  width:100%;
+  margin:20px 0 20px 0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.copyRight img{
+  width:30px;
+  margin:5px;
+}
+.copyRight p{
+  width:100%;
+}
+.copyRight p.socialLinks{
   width:100%;
   display:flex;
   flex-direction:row;
   justify-content:center;
 }
 
-.copyRight img{
-  width:30px;
-  display:flex;
-  flex-direction:row;
-}
 
 h1,h2{
 color:white;
@@ -204,7 +237,7 @@ figure#figure3:hover:after{
 
 
 figure#figure4:hover:after {
-   content: "🤍";
+  content: "🤍";
   background-color: #6E0294;
 }
 
