@@ -13,6 +13,8 @@ Paloma Babot <br>
 https://github.com/Uxoa<br>
 https://www.linkedin.com/in/palomababot/<br>
 
+[![Uxoa’s github stats](https://github-readme-stats.vercel.app/api?username=Uxoa)](https://github.com/Uxoa)
+
 ## :musical_score: ScreenShot
 
 <img width="1217" alt="screenShot" src="https://user-images.githubusercontent.com/78784528/209450960-d71f8017-cfb9-4299-88f4-799c8dc77b48.png">
