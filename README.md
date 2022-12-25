@@ -12,8 +12,7 @@ A Backend team asked me to develop a dynamic Frontend of my drumless tracks link
 Paloma Babot <br>
 https://github.com/Uxoa<br>
 https://www.linkedin.com/in/palomababot/<br>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uxoa&layout=compact)](https://github.com/Uxoa)
-[![Uxoa’s github stats](https://github-readme-stats.vercel.app/api?username=Uxoa)](https://github.com/Uxoa)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uxoa&layout=compact)](https://github.com/Uxoa) [![Uxoa’s github stats](https://github-readme-stats.vercel.app/api?username=Uxoa)](https://github.com/Uxoa)
 
 
 ## :musical_score: ScreenShot
