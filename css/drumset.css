@@ -398,6 +398,7 @@ input[type=number]::-webkit-outer-spin-button {
 		-webkit-justify-content: center;
 		-ms-flex-pack: center;
 		justify-content: center;
+		padding:40px;
 	
 	}
 
@@ -413,9 +414,9 @@ input[type=number]::-webkit-outer-spin-button {
 		transform: translateX(-100%);
 	}
 	.container-drums {
-		width: 50%;
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);
+		width: 30%;
+		-webkit-transform: translateX(-116%);
+		transform: translateX(-116%);
 	}
 	.container-drums svg {
 		max-height: 65%;
@@ -505,7 +506,7 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	.palomadas{
-		top:0px!important;
+		top:40px!important;
 	}
 	.sequencer img {
 		pointer-events: none;
