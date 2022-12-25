@@ -32,10 +32,12 @@ header{
   width:100%;
   display:block;
   text-align:center;
-  padding:10px;
-  background:black;
-  opacity:0.8;
+  padding:0px;
+  opacity:1;    
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 70%);
 }
+header img{width:200px;}
 
 main{
   margin-top:40px;
@@ -43,14 +45,15 @@ main{
 
 
 footer{
-  background-color:#000000;
+  color:#ffffff;
   display:block;
   justify-content:center;
   margin:40px 0px 0px 0px;
   padding:40px;
   opacity:0.8;
   text-align:center;
-
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 70%);
 }
 
 h1,h2{
@@ -159,7 +162,7 @@ figure:hover {
 
 figure#figure1:hover:after {
   content: "";
-  background-color: rgba(241, 196, 15, 0.9);
+  background-color: #efc210e6;
   color: white;
   font-size: 72px;
   z-index: 2;
