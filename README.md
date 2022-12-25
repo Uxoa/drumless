@@ -4,16 +4,26 @@
 
 ## :musical_score: Project description:
 
-This project is an Access to the drumless songs and tablatures of the tracks I can play with the possibility to have a link to the Youtube drumless song and another link to the drum tablature.<br>
+This project is an **Access to the drumless songs and tablatures of the tracks I can play** with the possibility to have a **link to the Youtube drumless song** and another **link to the drum tablature**. I integrated an **drumset animation just for play** a little bit.<br>
 
-A Backend team asked me to develop a dynamic Frontend of my drumless tracks linked to the drumless video and drum Tablature. As I don't have a REST API I use a JSON server to be able to built the frontend. The Backend Team requested me an interface in javascript vanilla, layout practices and clean code.
+A Backend team asked me to develop a dynamic Frontend of my drumless tracks linked to the drumless video and drum Tablature. As I don't have a REST API I use a **JSON**to be able to built the frontend. The Backend Team requested me **javascript vanilla, layout practices and clean code**.
 
 ## :musical_score: Developer:
 Paloma Babot <br>
 https://github.com/Uxoa<br>
 https://www.linkedin.com/in/palomababot/<br>
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uxoa&layout=compact)](https://github.com/Uxoa)
 [![Uxoa’s github stats](https://github-readme-stats.vercel.app/api?username=Uxoa)](https://github.com/Uxoa)
+
+
+
+
+
+
+
+
+
 
 ## :musical_score: ScreenShot
 
