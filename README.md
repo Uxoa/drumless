@@ -33,9 +33,9 @@ http://127.0.0.1:5500/index.html
 ## :musical_score: Installation
 
 :point_right: Make sure you have NodeJs (node -v) (https://nodejs.org/es/download/) and Composer (composer -v) (https://getcomposer.org/) installed<br>
-:point_right: Install dependencies: npm install <br>
 :point_right: clone https://github.com/Uxoa/drumless<br>
 :point_right: Install dependencies: npm install <br>
+:point_right: Install dependencies: sass installation https://sass-lang.com/install<br>
 :point_right: Start the server: json-server(npm install -g json-server command)<br>
 :point_right: go to /json folder (cd json) where the canciones.json is<br>
 :point_right: Launch the server using json-server --watch drumless.json<br>
