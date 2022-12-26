@@ -63,7 +63,17 @@
       "genre": "Rock/metal",
       "link": "https://www.youtube.com/watch?v=Fd79pRV5bPs",
       "tablature": "../pdf/enter_sandman.pdf"
-     
+    
+    },
+    {
+      "id": 8,
+      "song": "A whiter shade of pale",
+      "autor": "Procol Harum",
+      "img": "../images/procolHarumWhiterShadeOfPale.jpg",
+      "genre": "Baroque pop",
+      "link": "https://www.youtube.com/watch?v=s6w04D7nEeE",
+      "tablature": "../pdf/A_Whiter_Shade_Of_Pale_By_Procol_HArum.pdf"
+    
     },
     {
       "id": 8,
@@ -73,7 +83,7 @@
       "genre": "Rock/metal",
       "link": "https://youtu.be/AyDYFawc_Zw",
       "tablature": "../pdf/enter_sandman.pdf"
-     
+    
     }
     
   ]

@@ -153,7 +153,8 @@ a {
   justify-content:center;
 }
 
-figure {  cursor:pointer;
+figure {  
+  cursor:pointer;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -162,12 +163,12 @@ figure {  cursor:pointer;
   width: 180px;
   height: 250px;
   margin:10px;
-  padding: 20px 20px;
+  padding: 5px 0px 0px 10px;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
-  background:#000000;
+
 }
 
 
@@ -178,7 +179,7 @@ figure img{
   z-index:0;
   top:0;
   left:0;
-  opacity:0.5;
+  opacity:1;
 }
 
 figure:before, figure:after {
@@ -206,40 +207,6 @@ figure:hover {
 }
 
 
-figure#figure1:hover:after {
-  content: "";
-  background-color: #efc210e6;
-  color: white;
-  font-size: 72px;
-  z-index: 2;
-}
-
-figure:hover:after {
-  color: white;
-  font-size: 72px;
-  z-index: 2;
-}
-
-figure#figure1:hover:after,  figure#figure5:hover:after{
-  content: "🤍";
-  background-color: rgba(241, 196, 15, 0.9);
-}
-
-figure#figure2:hover:after, figure#figure6:hover:after  {
-  content: "🤍";
-  background-color: #e4484b;
-}
-
-figure#figure3:hover:after{
-  content: "🤍";
-  background-color: #477AE9;
-}
-
-
-figure#figure4:hover:after {
-  content: "🤍";
-  background-color: #6E0294;
-}
 
 figure:hover .date {
   bottom: -59px;
@@ -274,20 +241,23 @@ figure .date span:last-child {
   font-weight: 100;
 }
 figure figcaption {
-  width:90%;
+  width:100%;
   color: white;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   z-index: 1;
 }
 figure figcaption h4 {
+  
+  width:100%;
   margin: 0px;
   font-family: 'Chivo Mono', monospace;
-  font-size:16px;
-  line-height: 1.4;
+  font-size:14px;
+  line-height: 1.6;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
 figure figcaption h4 > span {
   background-color: rgba(241, 196, 15, 0.8);
+  padding:2px;
 }
 figure figcaption p {
   margin: 0;
