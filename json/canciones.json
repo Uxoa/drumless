@@ -6,7 +6,6 @@
       "song": "Have you ever seen the rain",
       "autor": "Clearence clearwater revival",
       "img": "../images/haveYouEverSeenTheRainCCR.jpg",
-      "genre": "Rock",
       "link": "https://youtu.be/LgOlEBO0srk",
       "tablature": "../pdf/have-you-ever-seen-the-rain-creedence-clearwater-revival-drum-transcription.pdf"
     },
@@ -15,7 +14,6 @@
       "song": "Lay down Sally",
       "autor": "Eric Clapton",
       "img": "../images/layDownSally.png",
-      "genre": "Rock",
       "link": "https://www.youtube.com/watch?v=s6dU9kZqHCg",
       "tablature": "https://www.songsterr.com/a/wsa/eric-clapton-lay-down-sally-drum-tab-s34295"
     },
@@ -24,7 +22,6 @@
       "song": "My Sharona",
       "autor": "The Knack",
       "img": "../images/mySharonaTheKnack.jpg",
-      "genre": "Rock",
       "link": "https://www.youtube.com/watch?v=-R1-ApyB7t0",
       "tablature": "../pdf/my-sharona-the-knack-drum-transcription.pdf"
     },
@@ -33,7 +30,6 @@
       "song": "To love somebody",
       "autor": "Bee Gees",
       "img": "../images/toLoveSomebody.jpg",
-      "genre": "Rock",
       "link": "https://youtu.be/oEeq0rvRj-U",
       "tablature": "../pdf/To_Love_Somebody_by_Bee_Gees.pdf"
     },
@@ -42,7 +38,6 @@
       "song": "Nothing else Matters",
       "autor": "Metallica",
       "img": "../images/nothingElseMatters.jpg",
-      "genre": "Rock",
       "link": "https://www.youtube.com/watch?v=P5tagxz8mXg",
       "tablature": "../pdf/Metallica_Nothing_Else_Matters.pdf"
     },
@@ -51,7 +46,6 @@
       "song": "Sultans of Swing",
       "autor": "Dire Straits",
       "img": "../images/sultans-of-swing.jpeg",
-      "genre": "Rock/pop",
       "link": "https://www.youtube.com/watch?v=P5tagxz8mXg",
       "tablature": "../pdf/Sultans-of-Swing.pdf"
     },
@@ -60,7 +54,6 @@
       "song": "Stairway to heaven",
       "autor": "Led Zeppelin",
       "img": "../images/stairway to heaven.png",
-      "genre": "Rock/metal",
       "link": "https://www.youtube.com/watch?v=Fd79pRV5bPs",
       "tablature": "../pdf/enter_sandman.pdf"
     
@@ -70,7 +63,6 @@
       "song": "A whiter shade of pale",
       "autor": "Procol Harum",
       "img": "../images/procolHarumWhiterShadeOfPale.jpg",
-      "genre": "Baroque pop",
       "link": "https://www.youtube.com/watch?v=s6w04D7nEeE",
       "tablature": "../pdf/A_Whiter_Shade_Of_Pale_By_Procol_HArum.pdf"
     
@@ -80,7 +72,6 @@
       "song": "Enter Sandman",
       "autor": "Metallica",
       "img": "../images/enterSadmanMetallica.jpeg",
-      "genre": "Rock/metal",
       "link": "https://youtu.be/AyDYFawc_Zw",
       "tablature": "../pdf/enter_sandman.pdf"
     
@@ -90,7 +81,6 @@
       "song": "Sultans of Swing",
       "autor": "Dire Straits",
       "img": "../images/sultans-of-swing.jpeg",
-      "genre": "Rock/pop",
       "link": "https://www.youtube.com/watch?v=P5tagxz8mXg",
       "tablature": "../pdf/Sultans-of-Swing.pdf"
     },
@@ -99,7 +89,6 @@
       "song": "Stairway to heaven",
       "autor": "Led Zeppelin",
       "img": "../images/stairway to heaven.png",
-      "genre": "Rock/metal",
       "link": "https://www.youtube.com/watch?v=Fd79pRV5bPs",
       "tablature": "../pdf/enter_sandman.pdf"
     
@@ -109,7 +98,6 @@
       "song": "A whiter shade of pale",
       "autor": "Procol Harum",
       "img": "../images/procolHarumWhiterShadeOfPale.jpg",
-      "genre": "Baroque pop",
       "link": "https://www.youtube.com/watch?v=s6w04D7nEeE",
       "tablature": "../pdf/A_Whiter_Shade_Of_Pale_By_Procol_HArum.pdf"
     

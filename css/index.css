@@ -111,12 +111,13 @@ color:white;
   height: auto;
   position: absolute;
   display: flex;
-  justify-items: baseline;
+  flex-direction: row;
   z-index: 1;
   bottom: 0px;
   left: 0px;
-  background: white;
-  padding:10px;
+  background: black;
+  padding: 10px;
+  justify-content: center;
 }
 
 
@@ -139,8 +140,24 @@ color:white!important;
   border-radius:2px;
   align-self: center;
   background-color:rgba(255, 204, 0, 0.844);
+  border:1px solid #000000;
   padding:3px;
   color:#000000;
+}
+
+.actionButtons a:hover{
+  width:auto;
+  height:auto;
+  font-size:11px;
+  position:relative;
+  margin-right:5px;
+  cursor:hand!important;
+  border-radius:2px;
+  align-self: center;
+  background-color:black;
+  border:1px solid rgba(255, 204, 0, 0.844);
+  padding:3px;
+  color:rgba(255, 204, 0, 0.844);
 }
 
 .flex{
@@ -182,7 +199,7 @@ figure {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
-  border:1px solid white;
+  border:1px solid grey;
 }
 
 
@@ -225,33 +242,7 @@ figure:hover {
 figure:hover figcaption {
   transform: translateY(-110%);
 }
-figure .date {
-  position: absolute;
-  bottom: 0;
-  right: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 11px 5px 11px 5px;
 
-  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  z-index:2;
-
-}
-figure .date span {
-  color: black;
-  line-height: 1;
-}
-figure .date span:first-child {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 13px;
-  font-weight: 100;
-}
-figure .date span:last-child {
-  font-size: 13px;
-  font-weight: 100;
-}
 figure figcaption {
   width:100%;
   color: white;

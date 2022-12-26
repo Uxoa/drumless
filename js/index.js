@@ -16,7 +16,6 @@ fetchSongsJson().then(songs =>{
             let song = songs.canciones[index].song;
             let autor = songs.canciones[index].autor;
             let img = songs.canciones[index].img;
-            let genre = songs.canciones[index].genre;
             let link = songs.canciones[index].link;
             let tablature = songs.canciones[index].tablature;
         
@@ -28,7 +27,6 @@ fetchSongsJson().then(songs =>{
             <a href="${tablature}" target="_blank">Tablature</a>
             </div>
             <img src="${img}" class="tr" alt="Song Image"/>
-            <div class="date"><span class="card-date-day">${genre}</span></div>
             <figcaption>
             <h4>${song}</h4>
             <h3>${autor}</h3>
