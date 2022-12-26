@@ -37,7 +37,7 @@ header{
   padding:0px;
   opacity:1;    
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 70%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 89%);
 }
 header img{width:200px;}
 
@@ -55,7 +55,7 @@ footer{
   opacity:0.8;
   text-align:center;
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 70%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(121,117,117,1) 50%, rgba(0,0,0,1) 89%);
 }
 .palomadas{
   color: #000000;

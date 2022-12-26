@@ -3,21 +3,21 @@
   [
     {
       "id": 1,
-      "song": "Enter Sandman",
-      "autor": "Metallica",
-      "img": "../images/enterSadmanMetallica.jpeg",
-      "genre": "Rock",
-      "link": "https://youtu.be/AyDYFawc_Zw",
-      "tablature": "../pdf/enter_sandman.pdf"
-    },
-    {
-      "id": 2,
       "song": "Have you ever seen the rain",
       "autor": "Clearence clearwater revival",
       "img": "../images/haveYouEverSeenTheRainCCR.jpg",
       "genre": "Rock",
       "link": "https://youtu.be/LgOlEBO0srk",
       "tablature": "../pdf/have-you-ever-seen-the-rain-creedence-clearwater-revival-drum-transcription.pdf"
+    },
+    {
+      "id": 2,
+      "song": "Lay down Sally",
+      "autor": "Eric Clapton",
+      "img": "../images/layDownSally.png",
+      "genre": "Rock",
+      "link": "https://www.youtube.com/watch?v=s6dU9kZqHCg",
+      "tablature": "https://www.songsterr.com/a/wsa/eric-clapton-lay-down-sally-drum-tab-s34295"
     },
     {
       "id": 3,
@@ -36,6 +36,44 @@
       "genre": "Rock",
       "link": "https://youtu.be/oEeq0rvRj-U",
       "tablature": "../pdf/To_Love_Somebody_by_Bee_Gees.pdf"
+    },
+    {
+      "id": 5,
+      "song": "Nothing else Matters",
+      "autor": "Metallica",
+      "img": "../images/nothingElseMatters.jpg",
+      "genre": "Rock",
+      "link": "https://www.youtube.com/watch?v=P5tagxz8mXg",
+      "tablature": "../pdf/Metallica_Nothing_Else_Matters.pdf"
+    },
+    {
+      "id": 6,
+      "song": "Sultans of Swing",
+      "autor": "Dire Straits",
+      "img": "../images/sultans-of-swing.jpeg",
+      "genre": "Rock/pop",
+      "link": "https://www.youtube.com/watch?v=P5tagxz8mXg",
+      "tablature": "../pdf/Sultans-of-Swing.pdf"
+    },
+    {
+      "id": 7,
+      "song": "Stairway to heaven",
+      "autor": "Led Zeppelin",
+      "img": "../images/stairway to heaven.png",
+      "genre": "Rock/metal",
+      "link": "https://www.youtube.com/watch?v=Fd79pRV5bPs",
+      "tablature": "../pdf/enter_sandman.pdf"
+     
+    },
+    {
+      "id": 8,
+      "song": "Enter Sandman",
+      "autor": "Metallica",
+      "img": "../images/enterSadmanMetallica.jpeg",
+      "genre": "Rock/metal",
+      "link": "https://youtu.be/AyDYFawc_Zw",
+      "tablature": "../pdf/enter_sandman.pdf"
+     
     }
     
   ]
