@@ -107,15 +107,16 @@ color:white;
 }
 
 .actionButtons{
-width:auto;
-  height:auto;
-  position:absolute;
-  display:flex;
-  justify-items:baseline;
-  z-index:10;
-  bottom:65px;
-  left:50px;
-  padding:0px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  justify-items: baseline;
+  z-index: 1;
+  bottom: 0px;
+  left: 0px;
+  background: white;
+  padding: 0px;
 }
 
 .actionButtons a{
