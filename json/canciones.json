@@ -86,7 +86,7 @@
     
     },
     {
-      "id": 6,
+      "id": 10,
       "song": "Sultans of Swing",
       "autor": "Dire Straits",
       "img": "../images/sultans-of-swing.jpeg",
@@ -95,7 +95,7 @@
       "tablature": "../pdf/Sultans-of-Swing.pdf"
     },
     {
-      "id": 7,
+      "id": 11,
       "song": "Stairway to heaven",
       "autor": "Led Zeppelin",
       "img": "../images/stairway to heaven.png",
@@ -105,7 +105,7 @@
     
     },
     {
-      "id": 8,
+      "id": 12,
       "song": "A whiter shade of pale",
       "autor": "Procol Harum",
       "img": "../images/procolHarumWhiterShadeOfPale.jpg",

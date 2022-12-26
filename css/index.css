@@ -116,18 +116,31 @@ color:white;
   bottom: 0px;
   left: 0px;
   background: white;
-  padding: 0px;
+  padding:10px;
+}
+
+
+figure:hover .actionButtons{
+  background: black;
+
+}
+
+figure:hover .date span{
+color:white!important;
 }
 
 .actionButtons a{
-  width:35px;
-  height:35px;
+  width:auto;
+  height:auto;
+  font-size:11px;
   position:relative;
   margin-right:5px;
   cursor:hand!important;
   border-radius:2px;
-  opacity:1;
   align-self: center;
+  background-color:rgba(255, 204, 0, 0.844);
+  padding:3px;
+  color:#000000;
 }
 
 .flex{
@@ -175,7 +188,7 @@ figure {
 
 figure img{
   width:100%;
-  height:100%;
+  height:85%;
   position:absolute;
   z-index:0;
   top:0;
@@ -209,9 +222,6 @@ figure:hover {
 
 
 
-figure:hover .date {
-  bottom: -59px;
-}
 figure:hover figcaption {
   transform: translateY(-110%);
 }
@@ -224,14 +234,13 @@ figure .date {
   justify-content: center;
   flex-direction: column;
   padding: 11px 5px 11px 5px;
-  background-color: rgba(241, 196, 15, 0.8);
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   z-index:2;
 
 }
 figure .date span {
-  color: white;
+  color: black;
   line-height: 1;
 }
 figure .date span:first-child {
@@ -249,14 +258,14 @@ figure figcaption {
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   z-index: 1;
   background-color:black;
-  padding:10px 0px 10px 10px;
+  padding:3px 0px 10px 7px;
 }
 figure figcaption h4 {
   width:100%;
   margin: 0px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight:500;
-  font-size:16px;
+  font-size:14px;
   line-height: 1.6;
 }
 figure figcaption h3 {
@@ -266,6 +275,7 @@ figure figcaption h3 {
   font-weight:200;
   font-size:12px;
   line-height: 1.6;
+  color:rgba(255, 204, 0, 0.844);
 }
 
 figure figcaption p {
