@@ -7,7 +7,7 @@
 
 
 html {
-  font-family: 'Chivo Mono', monospace;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 16px;
   font-smooth: auto;
   font-weight: 300;
@@ -164,12 +164,12 @@ figure {
   width: 180px;
   height: 250px;
   margin:10px;
-  padding: 5px 0px 0px 10px;
+  padding:0px;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
-
+  border:1px solid white;
 }
 
 
@@ -218,27 +218,29 @@ figure:hover figcaption {
 figure .date {
   position: absolute;
   bottom: 0;
-  right: 30px;
+  right: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 11px 5px 11px 5px;
   background-color: rgba(241, 196, 15, 0.8);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index:2;
+
 }
 figure .date span {
   color: white;
   line-height: 1;
 }
 figure .date span:first-child {
-  font-family: 'Chivo Mono', monospace;
-  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 13px;
   font-weight: 100;
 }
 figure .date span:last-child {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 100;
 }
 figure figcaption {
@@ -246,20 +248,26 @@ figure figcaption {
   color: white;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   z-index: 1;
+  background-color:black;
+  padding:10px 0px 10px 10px;
 }
 figure figcaption h4 {
-  
   width:100%;
   margin: 0px;
-  font-family: 'Chivo Mono', monospace;
-  font-size:14px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight:500;
+  font-size:16px;
   line-height: 1.6;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
-figure figcaption h4 > span {
-  background-color: rgba(241, 196, 15, 0.8);
-  padding:2px;
+figure figcaption h3 {
+  width:100%;
+  margin: 0px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight:200;
+  font-size:12px;
+  line-height: 1.6;
 }
+
 figure figcaption p {
   margin: 0;
   line-height: 1.5;

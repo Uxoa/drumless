@@ -30,7 +30,8 @@ fetchSongsJson().then(songs =>{
             <img src="${img}" class="tr" alt="Song Image"/>
             <div class="date"><span class="card-date-day">${genre}</span></div>
             <figcaption>
-            <h4><span>${song}<br>${autor}</span></h4>
+            <h4>${song}</h4>
+            <h3>${autor}</h3>
             </figcaption>
             </figure>
             `    
