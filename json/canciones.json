@@ -78,28 +78,28 @@
     },
     {
       "id": 10,
-      "song": "Sultans of Swing",
-      "autor": "Dire Straits",
-      "img": "../images/sultans-of-swing.jpeg",
-      "link": "https://www.youtube.com/watch?v=P5tagxz8mXg",
-      "tablature": "../pdf/Sultans-of-Swing.pdf"
+      "song": "Streets of Philadelphia",
+      "autor": "Bruce Springsteen",
+      "img": "../images/Streets_of_Philadelphia.jpg",
+      "link": "https://www.youtube.com/watch?v=SDmHk03Pi0Y",
+      "tablature": "../pdf/streetsOfPhiladelphia.pdf"
     },
     {
       "id": 11,
-      "song": "Stairway to heaven",
-      "autor": "Led Zeppelin",
-      "img": "../images/stairway to heaven.png",
-      "link": "https://www.youtube.com/watch?v=Fd79pRV5bPs",
-      "tablature": "../pdf/enter_sandman.pdf"
+      "song": "Wasted years",
+      "autor": "Iron Maiden",
+      "img": "../images/Wastedyears.jpg",
+      "link": "https://www.youtube.com/watch?v=EJfi7MPbAd0",
+      "tablature": "../pdf/Wasted_Years_-_Iron_Maiden_-_Drum_Sheet.pdf"
     
     },
     {
       "id": 12,
-      "song": "A whiter shade of pale",
-      "autor": "Procol Harum",
-      "img": "../images/procolHarumWhiterShadeOfPale.jpg",
-      "link": "https://www.youtube.com/watch?v=s6w04D7nEeE",
-      "tablature": "../pdf/A_Whiter_Shade_Of_Pale_By_Procol_HArum.pdf"
+      "song": "Killing in the name",
+      "autor": "Rage againts The Machine",
+      "img": "../images/Killinginthename.jpg",
+      "link": "https://www.youtube.com/watch?v=UrwcwOsLMiU",
+      "tablature": "../pdf/RATM_Killing_In_The_Name_Of.pdf"
     
     }
     
