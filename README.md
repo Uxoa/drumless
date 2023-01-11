@@ -4,7 +4,7 @@
 
 ## :musical_score: Project description:
 
-This project is an **Access to the drumless songs and tablatures of the tracks I can play** with the possibility to have a **link to the Youtube drumless song** and another **link to the drum tablature**. I integrated an **drumset animation just for play** a little bit, thank you to https://github.com/iamjoshellis to let me use it.<br>
+This project is an **Access to the drumless songs and tablatures of the tracks I can play** with the possibility to have a **link to the Youtube drumless song** and another **link to the drum tablature**. I integrated a **drumset animation just for play** a little bit, thank you to https://github.com/iamjoshellis to let me use it.<br>
 
 A Backend team asked me to develop a dynamic Frontend of my drumless tracks linked to the drumless video and drum Tablature. As I don't have a REST API I use a **JSON**to be able to built the frontend. The Backend Team requested me **javascript vanilla, layout practices and clean code**.
 
